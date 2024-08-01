@@ -81,6 +81,13 @@ public class EventDetector {
         serverMessageEvents.get(Server.HYPIXEL).put("SkyWars Experience (Kill)", Event.KILL);
         serverMessageEvents.get(Server.HYPIXEL).put("coins! (Final Kill)", Event.KILL);
 
+        serverMessageEvents.get(Server.HYPIXEL).put("had a small brain moment while fighting ToasterWaifu.", Event.KILL);
+        serverMessageEvents.get(Server.HYPIXEL).put("was not able to block clutch against ToasterWaifu.", Event.KILL);
+        serverMessageEvents.get(Server.HYPIXEL).put("got 360 no-scoped by ToasterWaifu.", Event.KILL);
+        serverMessageEvents.get(Server.HYPIXEL).put("forgot how many blocks they had left while fighting ToasterWaifu.", Event.KILL);
+        
+
+        
         serverMessageEvents.get(Server.BEDWARS_PRACTICE).put(AutoTechno.client.getClient().getSession().getUsername() + " FINAL KILL!", Event.KILL);
 
         serverMessageEvents.get(Server.PVPLAND).put("slain by " + AutoTechno.client.getClient().getSession().getUsername(), Event.KILL);
